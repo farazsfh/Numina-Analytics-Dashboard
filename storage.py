@@ -4,21 +4,14 @@ import datetime as dt
 devices = {'Streetscape': ('SWLSANDBOX1', 'img/Streetscape.png'), 'Outside': ('SWLSANDBOX3', 'img/Outside.png'),
            'UnderRaincoat': ('SWLSANDBOX2', 'img/UnderRaincoat.png')}
 
-events = {'Autonomous Snowplow Competition': (dt.datetime(2019, 1, 26, 8), dt.datetime(2019, 1, 26, 18)),
-         'City Moments': (dt.datetime(2019, 8, 16, 19), dt.datetime(2019, 8, 17, 2)),
-         'Open Sidewalk #1': (dt.datetime(2018, 6, 16, 12), dt.datetime(2018, 6, 16, 18)),
-         'Open Sidewalk #2': (dt.datetime(2018, 7, 21, 12), dt.datetime(2018, 7, 21, 18)),
-         'Open Sidewalk #3': (dt.datetime(2018, 9, 22, 12), dt.datetime(2018, 9, 22, 6)),
+events = {'City Moments': (dt.datetime(2019, 8, 16, 19), dt.datetime(2019, 8, 17, 2)),
          'Open Sidewalk #4': (dt.datetime(2019, 3, 2, 15), dt.datetime(2019, 3, 2, 19)),
-         'Public Roundtable #3': (dt.datetime(2018, 8, 14, 17), dt.datetime(2018, 8, 15, 21)),
-         'Public Talk #3': (dt.datetime(2018, 9, 26, 19), dt.datetime(2018, 9, 26, 21)),
-         'Public Talk #4': (dt.datetime(2018, 10, 16, 19), dt.datetime(2018, 10, 16, 21)),
-         'Reference Panel #3': (dt.datetime(2018, 6, 2, 9), dt.datetime(2018, 6, 2, 16)),
-         'Reference Panel #4': (dt.datetime(2018, 6, 23, 9), dt.datetime(2018, 6, 23, 16)),
-         'Reference Panel #6': (dt.datetime(2019, 1, 12, 9), dt.datetime(2019, 1, 12, 17)),
          'Sidewalk Summer Open House': (dt.datetime(2019, 6, 29, 12), dt.datetime(2019, 6, 29, 18)),
          'Startup Open House': (dt.datetime(2019, 9, 26, 16), dt.datetime(2019, 9, 26, 20)),
-         'Tap:Ex Augmented Opera': (dt.datetime(2019, 11, 20, 18), dt.datetime(2019, 11, 23, 22))}
+         'Tap:Ex Augmented Opera Day 1': (dt.datetime(2019, 11, 20, 18), dt.datetime(2019, 11, 20, 22)),
+         'Tap:Ex Augmented Opera Day 2': (dt.datetime(2019, 11, 21, 18), dt.datetime(2019, 11, 21, 22)),
+         'Tap:Ex Augmented Opera Day 3': (dt.datetime(2019, 11, 22, 18), dt.datetime(2019, 11, 22, 22)),
+         'Tap:Ex Augmented Opera Day 4': (dt.datetime(2019, 11, 23, 18), dt.datetime(2019, 11, 23, 22))}
 
 OutsideZones = {'Tables': 43034,
                  'Hedge': 43035,
