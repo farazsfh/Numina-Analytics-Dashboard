@@ -51,7 +51,7 @@ By Amy, Antoine, and Faraz
 <h2>Considerations We Took Into Account</h2>
 <ul>
 <li>Due to there being little data involving bicycles or vehicles, we have omitted them from our dashboards. This was done to reduce query load to slightly improve our dashboard's performance. If the sensor involved more roads, we would be sure to include bicycle and vehicle data in our dashboard.</li>
-<li>This dashboard to answer specific questions in mind; as such, the tabs are organized to allow users to answer these questions for themselves.</li>
+<li>This dashboard was designed to answer specific questions in mind; as such, the tabs are organized to allow users to answer these questions for themselves.</li>
 <li>We decided to use Plotly for our dashboard, which gives the user the ability to interact with (in addition to customizing the queries/parameters). However, this comes with drawbacks, </li>
 </ul>
 
