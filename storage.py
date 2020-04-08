@@ -43,7 +43,7 @@ inv_OutsideZones, inv_RaincoatZones, inv_StreetscapeZones = [{v: k for k, v in x
 
 landing_page_html = """
 <h1>Numina Dashboard</h1>
-Welcome to our Numina Dashboard!
+Welcome to our Numina Dashboard! Please ensure that a "login.py" file with the variables "login" and "pwd" exist, with values that are a valid email address and the corresponding password. <i>To begin, in Jupyter notebook, click the "Voila" widget in the toolbar; you will need to select a new option in the dropdown on each dashboard tab to load the graphs. The graphs take a moment to load (possible a couple minutes), so do not stress if they do not appear right away.</i>
 <br>
 By Amy, Antoine, and Faraz
 <br><br>
@@ -56,6 +56,7 @@ By Amy, Antoine, and Faraz
 </ul>
 
 <h2>Documentation/User Guide</h2>
+
 <b>View by Event</b><br>
 This tab allows users to view data for a certain event. This list of events was scraped from the web and condensed to include only events that occurred at 307. Users are also able to pick the sensor and choose if they want to look at data only for a given hour or the cumulative data up to a given hour. 
 <br><i>Heatmap</i>: A simple heatmap of sensor activity for pedestrians for the given sensor. The warmer the color, the less activity there was; likewise, the cooler the cooler the area, the more activity there was. This was produced by simply querying the Numina API.
