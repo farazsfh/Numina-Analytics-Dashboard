@@ -13,6 +13,7 @@ events = {'City Moments': (dt.datetime(2019, 8, 16, 19), dt.datetime(2019, 8, 17
          'Tap:Ex Augmented Opera Day 3': (dt.datetime(2019, 11, 22, 18), dt.datetime(2019, 11, 22, 22)),
          'Tap:Ex Augmented Opera Day 4': (dt.datetime(2019, 11, 23, 18), dt.datetime(2019, 11, 23, 22))}
 
+# User-defined sensor zones and their corresponding Numina IDs
 OutsideZones = {'Tables': 43034,
                  'Hedge': 43035,
                  'Raincoat': 43036,
@@ -41,6 +42,7 @@ inv_OutsideZones, inv_RaincoatZones, inv_StreetscapeZones = [{v: k for k, v in x
                                                                        RaincoatZones, 
                                                                        StreetscapeZones]]
 
+# HTML for the landing page
 landing_page_html = """
 <h1>Numina Dashboard</h1>
 Welcome to our Numina Dashboard! Please ensure that a "login.py" file with the variables "login" and "pwd" exist, with values that are a valid email address and the corresponding password. <i>To begin, in Jupyter notebook, click the "Voila" widget in the toolbar; you will need to select a new option in the dropdown on each dashboard tab to load the graphs. The graphs take a moment to load (possible a couple minutes), so do not stress if they do not appear right away.</i>
@@ -82,6 +84,7 @@ zone_reference_html = """
 <h3>Outside</h3> <br> <img src="img/OutsideZones.png">
 """
 
+# HTML for the privacy statement
 privacy_statement_html = """
 <h1>Our Privacy Philosophy</h1>
 In the digital world today, the balance between personal privacy and the benefits of data collection are often scrutinized. In our website, we queried Numina API data from the sensors at 307 for use in our data analysis. Throughout all of our data processing, we respected the privacy of individuals being recorded and did not include any personally identifiable information about them. In addition, the sample images overlayed in our heatmaps have no recognizable people or faces in them. The majority of the Numina data was used strictly for counting occurrences of objects detected at certain times near the sensors.
@@ -93,5 +96,4 @@ Overall, data collection is significantly beneficial and informative for society
 In order to create our visualizations and tables for our dashboard, we used the Numina API to collect data. All the information we gather through the Numina API is aggregate, meaning it does not provide us with any information involving a specific person. For example, our dwell time values are the mean of dwell time values for everyone detected by a sensor. In the following table, we describe all types of data we used and how we ensured that we were respecting the privacy of people detected by the sensor.
 
 <img src="img/DataSources.png"  width="1192" height="306">
-
 """
