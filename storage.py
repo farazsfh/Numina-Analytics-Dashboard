@@ -70,7 +70,7 @@ This tab allows users to view data for a certain event. This list of events was 
 This tab is very similar to the "View by Event" tab, except users are able to select a date range instead of a single event. Please refer to the section above for detailed information about each graph.
 
 <br><b>Plan Maintenance</b><br>
-This tab allows users (most importantly those who overlook the site) to see the mean pedestrian counts by weekday, the mean pedestrian counts by hour, and a timeseries graph of daily pedestrian counts. The user can also select which day of the week they want to schedule maintenance, and after how many hours of "usage" maintenance should occur. An algorithm then calculates when to best do maintenance with these parameters and plots them has red vertical bars. "Usage" is defined as how many people visit the are the sensor covers, and takes into consideration that events are high usage.
+This tab allows users (most importantly those who overlook the site) to see the mean pedestrian counts by weekday, the mean pedestrian counts by hour, and a timeseries graph of daily pedestrian counts. Note that outliers have been removed for analyzing pedestrian counts by weekday, so barplot is representative of a weekly routine without large events. The user can also select which day of the week they want to schedule maintenance, and after how many hours of "usage" maintenance should occur. An algorithm then calculates when to best do maintenance with these parameters and plots them as red vertical bars. "Usage" is defined as how many people visit the area the sensor covers, and takes into consideration that events are high usage.
 
 <br><b>Privacy Statement</b><br>
 An outline of our privacy philosophy, and how we incorporated it into our dashboard. 
