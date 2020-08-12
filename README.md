@@ -1,4 +1,5 @@
 # Numina Dashboard
+The Numina Dashboard displays up to date analytics and data visualizations for traffic data collected by [Numina](https://numina.co/) sensors.
 
 # Usage
 Create a login.py file containing an email and password for an account from [Numina](https://numina.co/). Then, run the Python notebook in Jupyter.
